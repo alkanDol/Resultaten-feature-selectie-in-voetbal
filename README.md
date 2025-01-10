@@ -15,24 +15,18 @@ Hieronder volgt een overzicht van de mappenstructuur en de bijbehorende bestande
 ### **`BP_resultaten`**
 Bevat alle gegenereerde resultaten en scripts. Submappen bevatten de outputs en scripts voor elke methode.
 
-#### **Submappen en Bestanden**
-- **`feature_importance`**
-  - `feature_importance_l2.csv`  
-    CSV-bestand met de 10 belangrijkste en minst belangrijke features van het basismodel.
-  - `Resultaten_grafieken.ipynb`  
-    Jupyter Notebook dat de grafieken genereert voor feature-importance analyses.
+#### **Submappen**
+- **`Chi_square_resultaten`**  
+  Bevat de resultaten en analyses van de Chi-Square Test experimenten.
 
-- **`Chi_square_resultaten`**
-  - Scripts en outputs die verband houden met de Chi-Square Test experimenten.
+- **`Cnn_resultaten`**  
+  Bevat de resultaten en analyses van de CNN-gebaseerde feature selectie.
 
-- **`Cnn_resultaten`**
-  - Scripts en outputs die verband houden met CNN-gebaseerde feature selectie.
+- **`FFS_resultaten`**  
+  Bevat de resultaten en analyses van de Forward Feature Selection experimenten.
 
-- **`FFS_resultaten`**
-  - Bevat bestanden van Forward Feature Selection experimenten. Elk bestand meet een specifieke metriek, zoals `accuracy`, `recall`, of `neg_brier`.
-
-- **`RNN_test_resultaten`**
-  - Scripts en outputs voor RNN-gebaseerde feature selectie.
+- **`RNN_test_resultaten`**  
+  Bevat de resultaten en analyses van de RNN-gebaseerde feature selectie.
 
 ### **Jupyter Notebooks**
 De scripts in de root-directory voeren verschillende experimenten uit:
